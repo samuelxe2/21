@@ -42,6 +42,7 @@ El jugador puede tomar decisiones como:
 *Recursión Pura: La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas.
 Funciones como estructura: No hay variables o bucles, lo que refuerza el uso de la programación funcional y el manejo de la memoria a través de la recursividad.*
 
+![Diagrama de Secuencia](diagramas/diagrama_secuencia_21.png)
 ### Instrucciones de ejecución
 
 Para ejecutar el proyecto, primero debe verificar que tenga instalando Python en su sistema Operativo; preferiblemente una versión 3.10 o mayor.
