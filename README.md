@@ -31,6 +31,12 @@ El objetivo principal es simular una partida completa de Blackjack, donde el jug
 ## Características del proyecto
 
 El juego está diseñado de manera que toda la lógica del Blackjack, desde la repartición de cartas hasta la evaluación de la mano del jugador, es gestionada sin ninguna variable externa. El flujo del programa depende completamente de las funciones que se llaman entre sí, garantizando un modelo puramente funcional y recursivo.
+El jugador puede tomar decisiones como:
+
+- Cuánto apostar.
+- Pedir cartas adicionales (Hit) o quedarse (Stand).
+- Dividir su mano (Split).
+- Verificar el resultado final de su mano en comparación con la del dealer.
 
 Recursión Pura: La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas.
 Funciones como estructura: No hay variables o bucles, lo que refuerza el uso de la programación funcional y el manejo de la memoria a través de la recursividad.
