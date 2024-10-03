@@ -44,7 +44,7 @@ Funciones como estructura: No hay variables o bucles, lo que refuerza el uso de 
 
 *blackjack.py esta ubicado el codigo final pero sin particiones*
 
-![Diagrama de Secuencia](https://github.com/samuelxe2/21/blob/master/diagramas/diagrama21.png)
+![Diagrama de Secuencia](https://github.com/samuelxe2/BlackJack-Recursivo/blob/master/diagramas/diagrama21.png)
 ### Instrucciones de ejecución
 
 Para ejecutar el proyecto, primero debe verificar que tenga instalando Python en su sistema Operativo; preferiblemente una versión 3.10 o mayor.
