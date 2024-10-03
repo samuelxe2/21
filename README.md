@@ -40,9 +40,9 @@ El jugador puede tomar decisiones como:
 - Verificar el resultado final de su mano en comparación con la del dealer.
 
 # Notas
-Recursión Pura: *La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas y funciones de orden superior.*
-Funciones como estructura: *No hay variables o bucles, lo que refuerza el uso de la programación funcional y el manejo de la memoria a través de la recursividad.*
-Tuplas y retornos por comprensión: *La creación de nuevas estructuras de datos inmutables están constituidas por la comprensión, y no por la iteración con variables.*
+- Recursión Pura: *La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas y funciones de orden superior.*
+- Funciones como estructura: *No hay variables o bucles, lo que refuerza el uso de la programación funcional y el manejo de la memoria a través de la recursividad.*
+- Tuplas y retornos por comprensión: *La creación de nuevas estructuras de datos inmutables están constituidas por la comprensión, y no por la iteración con variables.*
 
 *Hay varias versiones antiguas del problema de Blackjack en la carpeta PrimerasVersiones*
 
