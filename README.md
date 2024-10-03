@@ -37,7 +37,16 @@ El jugador puede tomar decisiones como:
 - Cuánto apostar.
 - Pedir cartas adicionales (Hit) o quedarse (Stand).
 - Dividir su mano (Split).
+- Aumentar su apuesta, solicitar una carta adicional y quedarse (Double down).
+- Rendirse. (Surrender)
 - Verificar el resultado final de su mano en comparación con la del dealer.
+
+El Blackjack recursivo sigue varios de los principios del juego de 52 cartas, siendo los más importantes:
+
+- Un blackjack natural (Una figura o un diez + Un az) valen más que cualquier blackjack de n + 2 cartas.
+- La casa siempre va a solicitar más cartas cuando tenga un número menor a 17 cartas totales.
+- Si se excede en 21 la cantidad de cartas en la mano del jugador o del dealer, pierden.
+- Si el dealer y el jugador empatan en la suma de cartas (Siempre que no sea un blackjack natural y otro de n + 2 cartas), hay un Push.
 
 # Notas
 - Recursión Pura: *La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas y funciones de orden superior.*
