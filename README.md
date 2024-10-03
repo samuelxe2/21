@@ -38,8 +38,8 @@ El jugador puede tomar decisiones como:
 - Dividir su mano (Split).
 - Verificar el resultado final de su mano en comparación con la del dealer.
 
-Recursión Pura: La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas.
-Funciones como estructura: No hay variables o bucles, lo que refuerza el uso de la programación funcional y el manejo de la memoria a través de la recursividad.
+*Recursión Pura: La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas.
+Funciones como estructura: No hay variables o bucles, lo que refuerza el uso de la programación funcional y el manejo de la memoria a través de la recursividad.*
 
 ### Diagrama de Clases
 
