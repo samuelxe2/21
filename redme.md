@@ -16,7 +16,7 @@ Proyecto Curricular de Ingeniería de Sistemas
 
 ---
 
-## Descripción del Proyectosga Musical - Modelos de Programación II
+##  Modelos de Programación II
 
 Universidad Distrital Francisco José de Caldas  
 Proyecto Curricular de Ingeniería de Sistemas
