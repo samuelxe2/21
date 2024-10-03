@@ -18,19 +18,19 @@ Proyecto Curricular de Ingeniería de Sistemas
 
 ## Descripción del Proyecto
 
-Este proyecto consiste en la implementación de un juego de Blackjack utilizando exclusivamente técnicas de recursividad. En lugar de usar variables para mantener los estados, el flujo del juego y los cambios en el estado de la partida se gestionan mediante funciones que se llaman entre sí de manera recursiva. De esta manera, se evita el uso de estados mutables y se aplica una estructura puramente funcional.
+Este proyecto consiste en la implementación de un juego de Blackjack utilizando exclusivamente técnicas de programación funcional. En lugar de usar variables para mantener los estados, el flujo del juego y los cambios en el estado de la partida se gestionan mediante funciones como ciudadanos de primera clase. De esta manera, se evita el uso de estados mutables y se aplica una estructura puramente funcional.
 
 El objetivo principal es simular una partida completa de Blackjack, donde el jugador puede tomar decisiones como pedir una carta, quedarse, o verificar el resultado del juego, todo en un flujo recursivo y funcional.
 
 ### Objetivos
 
-- Implementar un juego de Blackjack utilizando únicamente funciones recursivas para manejar la lógica del juego.
+- Implementar un juego de Blackjack utilizando únicamente los principios de la programación funcional para manejar la lógica del juego.
 
 - Profundizar en el entendimiento de la recursividad y la programación funcional, aplicándolos a un problema práctico.
 
 ## Características del proyecto
 
-El juego está diseñado de manera que toda la lógica del Blackjack, desde la repartición de cartas hasta la evaluación de la mano del jugador, es gestionada sin ninguna variable externa. El flujo del programa depende completamente de las funciones que se llaman entre sí, garantizando un modelo puramente funcional y recursivo.
+El juego está diseñado de manera que toda la lógica del Blackjack, desde la repartición de cartas hasta la evaluación de la mano del jugador, es gestionada sin ninguna variable externa. El flujo del programa depende completamente de funciones de orden superior, currying y funciones recursivas, garantizando un modelo puramente funcional y recursivo.
 
 El jugador puede tomar decisiones como:
 
@@ -39,10 +39,14 @@ El jugador puede tomar decisiones como:
 - Dividir su mano (Split).
 - Verificar el resultado final de su mano en comparación con la del dealer.
 
-*Recursión Pura: La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas.
-Funciones como estructura: No hay variables o bucles, lo que refuerza el uso de la programación funcional y el manejo de la memoria a través de la recursividad.*
+# Notas
+Recursión Pura: *La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas y funciones de orden superior.*
+Funciones como estructura: *No hay variables o bucles, lo que refuerza el uso de la programación funcional y el manejo de la memoria a través de la recursividad.*
+Tuplas y retornos por comprensión: *La creación de nuevas estructuras de datos inmutables están constituidas por la comprensión, y no por la iteración con variables.*
 
-*blackjack.py esta ubicado el codigo final pero sin particiones*
+*Hay varias versiones antiguas del problema de Blackjack en la carpeta PrimerasVersiones*
+
+# Diagramas
 
 ![Diagrama de Secuencia](https://github.com/samuelxe2/BlackJack-Recursivo/blob/master/diagramas/diagrama%20secuencia%2021.png)
 ### Instrucciones de ejecución
@@ -63,7 +67,7 @@ Estas son las siguientes instrucciones para ejecutar el proyecto:
 
 3. **Ejecutar el main:**
 ```bash
-   python main.py
+   python -u main.py
 ```
 
 ---
