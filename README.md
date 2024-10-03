@@ -53,12 +53,12 @@ Estas son las siguientes instrucciones para ejecutar el proyecto:
 
 1. **Clonar el repositorio:**
 ```bash
-   git clone https://https://github.com/samuelxe2/21
+   git clone https://https://github.com/BlackJack-Recursivo
 ```
 
 2. **Navega al directorio del repositorio clonado:**
 ```bash
-   cd 21
+   cd BlackJack-Recursivo
 ```
 
 3. **Ejecutar el main:**
