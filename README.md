@@ -18,7 +18,11 @@ Proyecto Curricular de Ingeniería de Sistemas
 
 ## Descripción del Proyecto
 
+<<<<<<< HEAD
+Este proyecto consiste en la implementación de un juego de Blackjack utilizando exclusivamente técnicas de recursividad. En lugar de usar variables para mantener los estados, el flujo del juego y los cambios en el estado de la partida se gestionan mediante funciones que se llaman entre sí de manera recursiva. De esta manera, se evita el uso de estados mutables y se aplica una estructura puramente funcional.
+=======
 Este proyecto consiste en la implementación de un juego de Blackjack utilizando exclusivamente técnicas de recursividad. No se utilizan variables en ningún punto del código; todas las interacciones y operaciones se manejan mediante funciones que se llaman entre sí de manera anidada.
+>>>>>>> 243fa49519733372b2abd709da2dc3c20cced151
 
 El objetivo principal es simular una partida completa de Blackjack, donde el jugador puede tomar decisiones como pedir una carta, quedarse, o verificar el resultado del juego, todo en un flujo recursivo y funcional.
 
@@ -31,6 +35,11 @@ El objetivo principal es simular una partida completa de Blackjack, donde el jug
 ## Características del proyecto
 
 El juego está diseñado de manera que toda la lógica del Blackjack, desde la repartición de cartas hasta la evaluación de la mano del jugador, es gestionada sin ninguna variable externa. El flujo del programa depende completamente de las funciones que se llaman entre sí, garantizando un modelo puramente funcional y recursivo.
+<<<<<<< HEAD
+
+Recursión Pura: La lógica de juego, incluyendo la decisión del jugador, está estructurada completamente mediante funciones recursivas.
+Funciones como estructura: No hay variables o bucles, lo que refuerza el uso de la programación funcional y el manejo de la memoria a través de la recursividad.
+=======
 El jugador puede tomar decisiones como:
 
 - Cuánto apostar.
@@ -44,6 +53,7 @@ Funciones como estructura: No hay variables o bucles, lo que refuerza el uso de 
 ### Diagrama de Clases
 
 
+>>>>>>> 243fa49519733372b2abd709da2dc3c20cced151
 
 ### Instrucciones de ejecución
 
