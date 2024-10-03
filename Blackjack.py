@@ -10,7 +10,6 @@ def generate_cards(size: int, type_card) -> tuple:
         for _ in range(size)
     )
   
-
 def generate_interval_cards(for_each_one: int, interval: tuple) -> tuple[int]:
     return tuple(
         range(interval[0], interval[1] + 1)

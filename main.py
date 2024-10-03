@@ -16,7 +16,8 @@ def game_execution(deck_ready):
     def input_bet(): return int(input("Enter the bet: "))
 
     def execute_flow(input_bet):
-        game_results(game_flow(deck_ready[0], deck_ready[1], deck_ready[2], input_bet, True), input_bet)
+        if input_bet > 0: game_results(game_flow(deck_ready[0], deck_ready[1], deck_ready[2], input_bet, True), input_bet)
+        else:             print("You must be drunk. Please, come back later when you feel better")
     
     print(" ")
     execute_flow(input_bet())
