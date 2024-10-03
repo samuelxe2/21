@@ -96,6 +96,8 @@ def game_flow(
                 )
 
                 def right_split(left_split):
+                    if left_split == None: return None
+
                     #Stadistics form the left split
                     final_statistics(left_split[0], left_split[4], user_bet, left_split[3])
 
@@ -105,8 +107,8 @@ def game_flow(
                         (player_deck[1], game_deck[1]), 
                         left_split[0],
                         left_split[1],
-                        left_split[2],
-                        user_bet
+                        user_bet,
+                        not left_split[2]
                     )
 
                 return right_split(left_split())
