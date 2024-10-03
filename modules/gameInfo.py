@@ -46,7 +46,16 @@ def user_options() -> str:
 
 
 def get_user_option() -> int:
-    return int(input(user_options() + "\nEnter the option: "))
+    def input_option():
+        return input(user_options() + "\nEnter the option: ")
+
+    def int_value(input):
+        if input.isdigit():
+            return int(input)
+        else:
+            return 0
+    
+    return int_value(input_option())
 
 
 def final_statistics(crupier_deck: tuple, result: str, user_bet: int, money_won: int) -> None:
